@@ -18,7 +18,7 @@ public class ZohoFirstRound {
 								
 				String current = (i%2 != 0) ? ( j < gap ) ? " " : reverse-- +"" : ( j < gap ) ? " " : count++ +"" ;
 				System.out.print(current +" ");
-
+				String str = (i%2 != 0) ? ( j < gap ) ? " " : count++ +"" : "" ;
 			}
 			reverse = count +  n - 1 ;
 			System.out.println();
